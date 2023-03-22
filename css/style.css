@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla";
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+body{
+   background-color: rgb(252, 242, 242);
+
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background: rgb(252, 242, 242);
+}
+
+.logo{
+    padding: 10px 0;
+    float: left;
+}
+
+.logo a{
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+nav.desktop{
+    float: right;
+    margin-top: 2px;
+  
+  
+}
+
+
+nav.desktop h1{
+    font-size: 25px;
+    float: right;
+  
+  
+}
+
+nav.desktop li{
+    font-weight: 300;
+    display: inline-block;
+  
+   
+   
+}
+
+nav.desktop p {
+    background: #07ac22;
+    padding: 6px 6px;
+    position: relative;
+    border-radius: 10px;
+
+
+}
+
+nav.desktop a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+
+    
+    
+}
+
+.frase-loja{
+    text-align: center;
+    background: #252323;
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
+}
+
+.frase-loja h2{
+    font-weight: bold;
+    font-size: 21px;
+    font-family:'Karla';
+    letter-spacing: 1px;
+    color: white
+}
+
+footer{
+	background: rgb(29, 29, 29);
+	padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+footer.fixed{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+}
+
+
+.box-categoria{
+    padding: 0 2%;
+   
+}
+
+
+
+.card-categoria{
+    width: 300px;
+    padding: 0px 0px 24px ;
+    height: 465px;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    float: left;
+    justify-content: center;
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 5px 5px 5px 5px;
+    color:rgb(17, 17, 17);
+     margin-left: 10px;
+     margin-top: 16px;
+     margin-bottom: 10px;
+    
+}
+
+
+
+.link{
+    margin-top: 10px;
+    top: 58%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 5px 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 2;
+    text-align: center;
+
+    
+}
+
+
+.card-categorias-wraper h2{
+    font-size: 16px;
+    z-index: 2;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #252323;
+
+
+    
+
+}
+
+.card-categorias-wraper p{
+    text-align: center;
+    margin-top: 14px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(39, 39, 39);
+}
+
+h3.carrinho{
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+h3.carrinho a{
+    text-align: center;
+    padding: 10px 20px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    left: 24px;
+    border-radius: 5px 5px 5px 5px;
+
+
+
+}
+
+
+.card-categoria img{
+    width: 100%;
+    height: 310px;
+    border-radius: 5px 5px 0 0;
+    z-index: 1;
+
+  
+}
+
+
+.tabela-pedidos{
+	margin-top: 40px;
+}
+
+.tabela-pedidos h2{
+	margin:15px 0;
+	border-bottom: 2px solid #000000;
+	font-size: 24px;
+	color: #000000;
+}
+
+.tabela-pedidos table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.tabela-pedidos tr:first-child td{
+	font-weight: bold;
+}
+
+.tabela-pedidos td{
+	padding: 8px;
+	color: #4b4b4b;
+	border: 1px solid #ccc;
+}
+
+.finalizar-pedido h2{
+	padding:10px 0;
+	color: #4b4b4b;
+	font-weight: normal;
+	float: right;
+}
+
+.btn-pagamento{
+	
+	padding: 10px 20px;
+	background: rgb(19, 128, 19);
+	color: white;
+	text-decoration: none;
+	float: right;
+    margin-bottom: 24%;
+}
+
+
+@media screen and (max-width: 1053px){
+    
+
+    nav.desktop{
+        display: flex;
+    }
+    
+    .box-categoria{
+     
+      padding: 0 18%;
+        
+      
+       
+    }
+
+      
+       
+    }
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
